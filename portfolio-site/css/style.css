@@ -1,0 +1,641 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/*************/
+/** Fonts  **/
+/*************/
+
+@font-face {
+    font-family: "quicksand-light";
+    src: url("../src/fonts/quicksand/quicksand-light.ttf");
+}
+
+@font-face {
+    font-family: "quicksand-regular";
+    src: url("../src/fonts/quicksand/quicksand-regular.ttf");
+}
+
+@font-face {
+    font-family: "quicksand-medium";
+    src: url("../src/fonts/quicksand/quicksand-medium.ttf");
+}
+
+@font-face {
+    font-family: "quicksand-bold";
+    src: url("../src/fonts/quicksand/quicksand-bold.ttf");
+}
+
+
+/*************/
+/** General  */
+/*************/
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: #001015;
+    font-size: 62.5%;
+    color: #fff;
+    font-family: "quicksand-regular";
+}
+
+.hidden {
+    position: absolute;
+    top: -99999px;
+    left: -99999px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.head-title {
+    font-size: 6em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.166666666666667em;
+
+}
+
+.head-title::after {
+    display: block;
+    content: '';
+
+    height: 1px;
+    width: 2.266666666666667em;
+
+    background: #fff;
+
+    margin-top: 0.1em;
+}
+
+
+.project__link {
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+
+}
+
+.project__link:hover {
+    text-shadow: 2px 0 0 rgba(217,240,255,.03), 0 2px 0  rgba(217,240,255,.03), 0 -2px 0 rgba(217,240,255,.03),  2px 2px 0 rgba(217,240,255,.03);
+    transition: .3s;
+    color: #fff;
+
+    border-color: #D9F0FF;
+
+    background: rgba(217,240,255,.03);
+
+
+
+    box-shadow: 0 0 16px 0 rgba(217,240,255,.3),inset 0 0 16px 0 rgba(217,240,255,.3);
+}
+
+/*************/
+/** Head  **/
+/*************/
+
+.head {
+    max-width: 120em;
+    min-height: 100vh;
+
+    margin: 0 auto;
+
+}
+
+.head__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 4em;
+    //padding-bottom: 5em;
+}
+
+.head__logo {
+    width: 100px;
+
+}
+
+.nav__list {
+    display: flex;
+}
+
+.nav__item {
+    position: relative;
+
+    margin-left: 6em;
+    padding-bottom: 1em;
+}
+
+
+
+.nav__item::after {
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    content: '';
+    width: 0;
+    height: 1px;
+    background: #fff;
+}
+
+.nav__item:hover::after {
+    width: 100%;
+    transition: width .3s;
+}
+
+
+.nav__link {
+    font-size: 1.6em;
+    letter-spacing: 0.05em;
+}
+
+.nav__item:hover .nav__link{
+    color: rgba(255,255,255, 0.8);
+    transition: .3s;
+}
+
+
+/*************/
+/** Heroes  **/
+/*************/
+
+.heroes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    min-height: 70vh;
+}
+
+.heroes__logo {
+    width: 320px;
+
+    padding-bottom: 1em;
+}
+
+.heroes__intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heroes__ticker {
+    font-size: 3em;
+    font-family: "quicksand-medium";
+    letter-spacing: 0.05em;
+
+    padding-bottom: 0.4em;
+}
+
+.heroes__ticker-sub {
+    font-size: 2.4em;
+    letter-spacing: 0.05em;
+}
+
+.arrow__wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.head__arrow-down {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow #scroll {
+    animation: under 1s infinite ;
+}
+
+@keyframes under{
+    0% {transform: translateY(0px); }
+    50% {transform: translateY(5px); }
+    100% {transform: translateY(0px); }
+}
+
+.arrow__message {
+    margin-top: 1em;
+
+    font-family: "quicksand-light";
+    font-size: 1.6em;
+    letter-spacing: 0.1em;
+    //text-transform: uppercase;
+}
+/***********/
+/** Work  **/
+/***********/
+
+.work {
+    max-width: 120em;
+
+    margin: 0 auto;
+    padding-bottom: 13em;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.project--left {
+    padding-right: 24em;
+}
+
+.project--right {
+    padding-left: 24em;
+}
+
+.project+.project {
+    margin-top: 17em;
+}
+
+.project__title {
+    font-family: "quicksand-light";
+    font-size: 2em;
+    letter-spacing: 0.05em;
+
+}
+
+.title--right {
+    text-align: end;
+}
+.project__container-all-thumbnail {
+    position: relative;
+}
+#bulles {
+    position: absolute;
+    top: -2.8em;
+    left: -2.6em;
+    fill: rgba(255,255,255, 0.05);
+    width: 26.2em;
+    height: 28.1em;
+}
+.project__wrapper-thumbnail {
+    position: relative;
+
+    margin-top: 2em;
+
+    border: 1px solid #fff;
+    border-radius: 50%;
+
+    width: 22.8em;
+    height: 22.8em;
+
+    overflow: hidden;
+}
+
+.project__thumbnail {
+    width: 100%;
+    height: auto;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.project__wrapper-link{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.link--left {
+    margin-left: 15.2em;
+}
+
+.link--right {
+    margin-right: 15.2em;
+}
+
+.link--left::before, .link--right::after {
+     display: inline-block;
+     content: "";
+
+     height: 1px;
+     width: 20.6em;
+
+     background: #fff;
+    border: 0.1px solid #d9f0ff;
+
+
+}
+
+
+
+.project__link {
+    font-family: "quicksand-bold";
+    font-size: 1.8em;
+    letter-spacing: 0.05em;
+
+    padding: 0.5555555555555556em 1.666666666666667em;
+
+    border: 1px solid #fff;
+    border-radius: 2em;
+}
+
+.link--left::after,.link--right::before  {
+    display: inline-block;
+    content: "";
+
+    height: 1px;
+    width: 5em;
+
+    background: #fff;
+}
+
+/************/
+/** About **/
+/************/
+
+
+.about {
+    max-width: 120em;
+    margin: 0 auto;
+    padding-bottom: 12em;
+}
+
+.about__text {
+    width: 48.83333333333333%;
+
+    font-family: "quicksand-light";
+    font-size: 1.6em;
+    line-height: 1.5em;
+    letter-spacing: 0.05em;
+}
+
+
+
+/*************/
+/** Contact **/
+/*************/
+
+.contact {
+    max-width: 120em;
+    margin: 0 auto;
+    padding-bottom: 11em;
+}
+
+.contact__wrapper-content {
+    //display: flex;
+}
+
+
+.form{
+    max-width: 31.66666666666667%;
+    overflow: hidden;
+
+}
+
+.form__wrapper-input {
+    position: relative;
+}
+
+.form__wrapper-input+.form__wrapper-input{
+    margin-top: 6em;
+}
+
+input[type="text"],textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #fff;
+
+    color: #fff;
+    font-family: "quicksand-light";
+    font-size: 1.4em;
+
+    width: 80%;
+
+    padding-left: 20%;
+    padding-bottom: 1.071428571428571em;
+
+
+}
+
+label {
+    font-size: 1.6em;
+    position: absolute;
+}
+
+.form__submit {
+    display: inline-block;
+
+    font-family: "quicksand-bold";
+    font-size: 1.8em;
+    letter-spacing: 0.05em;
+
+    padding: 0.5555555555555556em 1.666666666666667em;
+    margin-top: 2.222222222222222em;
+    border: 1px solid #fff;
+    border-radius: 2em;
+
+    background-color: transparent;
+    color: white;
+
+    float: right;
+
+}
+
+
+.coordonates {
+   //flex: 1 1 auto;
+    float: right;
+}
+
+.coordonates__main-title {
+    text-transform: uppercase;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.6em;
+}
+
+.coordonates__main-title::after {
+    display: block;
+    content: '';
+
+    height: 1px;
+    width: 5.44em;
+
+    background: #fff;
+
+    margin-top: 0.4em;
+}
+
+.coordonates__info+.coordonates__info {
+    margin-top: 3em;
+}
+
+.coordonates__title {
+    font-size: 2em;
+    letter-spacing: 0.05em;
+    margin-bottom: 0.75em;
+}
+
+.coordonates__text {
+    font-size: 1.6em;
+    font-family: "quicksand-light";
+    letter-spacing: 0.05em;
+
+}
+
+.socials {
+    display: flex;
+}
+
+.socials__item+.socials__item {
+    margin-left: 3em;
+}
+
+.socials__img{
+    fill: rgba(255,255,255, 0.6);
+}
+
+.socials__img:hover{
+    fill: rgba(255,255,255, 1);
+    transition: .3s;
+}
+
+.github {
+    width: 2.05em;
+    height: 2em;
+}
+
+.linkedin {
+    width: 2.093em;
+    height: 2em;
+}
+
+.twitter {
+    width: 2.463em;
+    height: 2em;
+}
+
+
+/************/
+/** Footer **/
+/************/
+
+.footer {
+    width: 120em;
+    margin: 0 auto;
+    padding-top: 4em;
+    padding-bottom: 3.5em;
+}
+
+.footer__wrapper-nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1em;
+}
+
+.footer__list-nav {
+    display: flex;
+}
+
+.footer__item-nav+.footer__item-nav {
+    margin-left: 5em;
+}
+
+.footer__link {
+    font-size: 1.4em;
+    color: rgba(255,255,255, .6);
+    letter-spacing: 0.05em;
+
+}
+
+.footer__link:hover{
+    color: rgba(255,255,255, 1);
+    transition: .3s;
+}
+
+.footer__socials {
+    display: flex;
+    align-items: center;
+}
+
+.footer__socials-text {
+    font-size: 1.4em;
+    color: rgba(255,255,255, .6);
+    letter-spacing: 0.05em;
+    margin-right: 1.428571428571429em;
+}
+
+.small {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+
+.small__logo {
+    width: 5em;
+    fill: rgba(255,255,255, .6);
+}
+
+.small__logo:hover {
+    fill: rgba(255,255,255, 1);
+    transition: .3s;
+}
+
+.small__text {
+    font-size: 1.4em;
+    color: rgba(255,255,255, .6);;
+}
