@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="688731b4-015a-4fe0-bf7c-260dbb96acb7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/img/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../design/portfolio-design1.0.xd" beforeDir="false" afterPath="$PROJECT_DIR$/../design/portfolio-design1.0.xd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +16,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+            <state relative-caret-position="323">
+              <caret line="141" column="29" selection-start-line="141" selection-end-line="142" />
             </state>
           </provider>
         </entry>
@@ -28,27 +28,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="519" column="31" selection-start-line="519" selection-start-column="20" selection-end-line="519" selection-end-column="31" />
+            <state relative-caret-position="508">
+              <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/main.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
               <folding>
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#article#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#article#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#article#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#article#3;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#svg#0;n#a#0;n#li#0;n#ul#0;n#section#2;n#aside#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#section#2;n#aside#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#section#2;n#aside#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#section#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-                <element signature="n#style#0;n#svg#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>thum</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -62,13 +65,15 @@
         <option value="$PROJECT_DIR$/src/img/bubulles.svg" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/main.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="280" />
-    <option name="width" value="1925" />
-    <option name="height" value="810" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -76,7 +81,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -87,28 +91,18 @@
             <path>
               <item name="portfolio-site" type="b2602c69:ProjectViewProjectNode" />
               <item name="portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="portfolio-site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="portfolio-site" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../sphynx/sphynx-site" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
@@ -136,18 +130,20 @@
       <option name="presentableId" value="Default" />
       <updated>1556442276801</updated>
       <workItem from="1556442278045" duration="7483000" />
-      <workItem from="1556522798309" duration="43324000" />
+      <workItem from="1556522798309" duration="43886000" />
+      <workItem from="1556692942859" duration="8598000" />
+      <workItem from="1556701632486" duration="16317000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50807000" />
+    <option name="totallyTimeSpent" value="76284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17718121" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18255034" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -162,11 +158,11 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" side_tool="true" weight="0.3295302" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" x="0" y="0" width="337" height="638" id="Documentation" order="4" side_tool="true" weight="0.3295302" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,29 +202,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="519" column="31" selection-start-line="519" selection-start-column="20" selection-end-line="519" selection-end-column="31" />
-          <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#2;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#article#3;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#0;n#ul#0;n#section#2;n#aside#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#section#2;n#aside#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#section#2;n#aside#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#section#0;n#div#0;n#section#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#0;n#ul#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#1;n#ul#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#svg#0;n#a#0;n#li#2;n#ul#0;n#div#1;n#div#0;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="508">
+          <caret line="130" column="32" selection-start-line="130" selection-start-column="32" selection-end-line="130" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="126" column="20" selection-start-line="126" selection-start-column="20" selection-end-line="126" selection-end-column="20" />
+        <state relative-caret-position="323">
+          <caret line="141" column="29" selection-start-line="141" selection-end-line="142" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

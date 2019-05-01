@@ -348,6 +348,7 @@ a {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: -1;
 }
 
 .project__wrapper-link{
@@ -365,15 +366,15 @@ a {
     margin-right: 15.2em;
 }
 
-.link--left::before, .link--right::after {
+.line-big{
      display: inline-block;
-     content: "";
+
 
      height: 1px;
      width: 20.6em;
 
      background: #fff;
-    border: 0.1px solid #d9f0ff;
+    //border: 0.1px solid #d9f0ff;
 
 
 }
@@ -391,7 +392,7 @@ a {
     border-radius: 2em;
 }
 
-.link--left::after,.link--right::before  {
+.line-small {
     display: inline-block;
     content: "";
 
